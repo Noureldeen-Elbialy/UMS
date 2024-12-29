@@ -1,0 +1,3 @@
+.bgGrad{
+    background: linear-gradient(to right,var(--main-color),var(--second-color));
+}

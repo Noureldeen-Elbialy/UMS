@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --main-color:#FEAF00;
+    --second-color:#F8D442;
+    --gray-color:#f8f8f8;
+}
+.bg-main{
+    background-color: var(--main-color);
+}
+.text-main{
+    color: var(--main-color);
+}
+.bg-second{
+    background-color: var(--second-color);
+}
+.text-second{
+    color: var(--second-color);
+}
+.bg-third{
+    background-color: var(--gray-color);
+}
+/* sidebar */
+.sideBar-Bg{
+    background-color: #f2eae1;
+}
+
+.active{
+    background-color: var(--main-color);
+}
+.active:hover {
+    background-color: var(--main-color) !important;
+}
+/*  */
+.btn{
+    transition: all 0.1s;
+}
+.btn:hover {
+    background-color: var(--main-color);
+}
